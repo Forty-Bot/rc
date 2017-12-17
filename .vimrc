@@ -15,7 +15,7 @@ Plugin 'fugitive.vim'
 Plugin 'Solarized'
 
 " Ctags integration
-Plugin 'ludovicchabant/vim-gutentags'
+"Plugin 'ludovicchabant/vim-gutentags'
 
 " Tab completion
 Plugin 'vim-scripts/VimCompletesMe'
@@ -59,8 +59,8 @@ colorscheme solarized
 " Use generated ctags
 set tags+=~/.vim/tags
 " Open tags in a new tab
-nnoremap <silent><C-]> <C-w><C-]><C-w>T
-vnoremap <silent><C-]> <Esc><C-w><C-]><C-w>T
+"nnoremap <silent><C-]> <C-w><C-]><C-w>T
+"vnoremap <silent><C-]> <Esc><C-w><C-]><C-w>T
 
 " Syntastic settings
 "set statusline+=%#warningmsg#

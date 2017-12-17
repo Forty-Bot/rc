@@ -1,3 +1,10 @@
 [user]
 	email = seanga2@gmail.com
 	name = Sean Anderson
+[diff]
+	renames = copies
+	mnemonicprefix = true
+[merge]
+	stat = true
+[push]
+	followTags = true
