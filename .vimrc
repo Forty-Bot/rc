@@ -9,7 +9,7 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " Git extensions
-Plugin 'fugitive.vim'
+"Plugin 'fugitive.vim'
 
 " Colors
 Plugin 'Solarized'
@@ -18,13 +18,13 @@ Plugin 'Solarized'
 "Plugin 'ludovicchabant/vim-gutentags'
 
 " Tab completion
-Plugin 'vim-scripts/VimCompletesMe'
+"Plugin 'vim-scripts/VimCompletesMe'
 
 " Syntastic
 "Plugin 'scrooloose/syntastic'
 
 " cmake integration
-Plugin 'jalcine/cmake.vim'
+"Plugin 'jalcine/cmake.vim'
 
 " Source .lvimrc files
 Plugin 'embear/vim-localvimrc'
@@ -57,7 +57,7 @@ set background=dark
 colorscheme solarized
 
 " Use generated ctags
-set tags+=~/.vim/tags
+"set tags+=~/.vim/tags
 " Open tags in a new tab
 "nnoremap <silent><C-]> <C-w><C-]><C-w>T
 "vnoremap <silent><C-]> <Esc><C-w><C-]><C-w>T
@@ -101,3 +101,6 @@ set smartcase
 
 " Automatically insert the same indentation as the previous line
 set autoindent
+
+" Always show statusline
+set laststatus=2

@@ -1,10 +1,12 @@
 [user]
 	email = seanga2@gmail.com
 	name = Sean Anderson
+	signingkey = 90611D5BCE8D48D203E860283EE88FECB4A1106E
 [diff]
 	renames = copies
 	mnemonicprefix = true
 [merge]
 	stat = true
+	tool = meld
 [push]
 	followTags = true
